@@ -1,0 +1,326 @@
+html
+{
+    scroll-behavior: smooth ;
+}
+body 
+{
+    font-family: 'segoe ui light';
+    background-color: #e9ecef;
+}
+.icon
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid #0d6efd 10px;
+    color: black;
+    margin: 10px 0;
+    transition: color 0.3s , background-color 0.3s , border 0.3s;
+}
+.icon-white
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid white 10px;
+    color: white;
+    margin: 10px 0;
+    transition: color 0.3s , background-color 0.3s , border 0.3s;
+}
+.icon-add
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid rgb(13, 110, 253) 5px;
+    color: rgb(13, 110, 253);
+    margin: 10px 0;
+    transition: color 0.3s , background-color 0.3s , border 0.3s;
+}
+.icon-add:hover
+{
+    color: white;
+    background-color: rgb(13, 110, 253);
+    border:solid  rgb(138, 184, 254) 10px;
+}
+.icon:hover
+{
+    color: white;
+    background-color: rgb(13, 110, 253);
+    border:solid  rgb(138, 184, 254) 10px;
+}
+.icon-white:hover
+{
+    color: black;
+    background-color:white;
+    border:solid  rgb(138, 184, 254) 10px;
+}
+.service h3
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+.rounded-5
+{
+    border-radius: 35px;
+}
+.navbar
+{
+    z-index: 9999999999999999999;
+}
+.navbar a
+{
+    color: white !important;
+    font-size: 18px;
+    transition: color 0.5s ,font-size 0.5s;
+}
+.navbar a:hover
+{
+    color:#0d6efd !important;
+    font-size: 17px;
+}
+.dropdown-menu a
+{
+    color: black !important;
+}
+.m-50
+{
+    margin: 100px auto;
+}
+.margin-botton-100
+{
+    margin-bottom: 100px;
+}
+.padding-50
+{
+    padding:100px 0 ;
+}
+.padding-20
+{
+    padding: 50px 0;
+}
+.fa-20
+{
+    font-size: 20px;
+}
+.fa-25
+{
+    font-size: 25px;
+}
+.about-after
+{
+    position: relative;
+}
+.about-after::after
+{
+    content: '';
+    background-color: #0d6efd;
+    position: absolute;
+    width: 15%;
+    height: 3px;
+    bottom: 30px;
+    left: 0;
+}
+.title
+{
+    position: relative;
+    margin-bottom: 60px;
+}
+.title h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600; 
+}
+
+.title::after
+{
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 3px;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0d6efd;
+}
+.contact-title
+{
+    position: relative;
+    margin-bottom: 40px;
+}
+.contact-title h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600; 
+}
+
+.contact-title::after
+{
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    bottom: -20px;
+    left: 0;
+    background-color: #0d6efd;
+}
+header
+{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+.bg-header
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+}
+.home-txt h1::after
+{
+    content: " |";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bar
+{
+    height: 10px;
+}
+.info li
+{
+    text-decoration: none;
+    list-style: none;
+    text-align: start;
+    margin: 15px;
+    font-size: 18px;
+}
+.bg-gray
+{
+    background-color: #e9ecef;
+}
+.skill h5
+{
+    font-size: 16px !important;
+}
+.w-100p
+{
+    width: 120px;
+}
+.achivments
+{
+    height: fit-content;
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;  
+}
+.contact
+{
+    height: fit-content;
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;  
+}
+.comments
+{
+    height: fit-content;
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;  
+}
+.bg-blue
+{
+    height: 100%;
+    background-color: rgba(13, 110, 253,0.5);
+}
+
+.card-img-top
+{
+    transition: transform 0.5s;
+}
+.card-img-top:hover
+{
+    transform: scale(1.2);
+}
+.carousel-shape
+{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    margin: 5px !important ;
+}
+.link
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin: 10px 0;
+    transition: color 0.5s;
+}
+.card-footer-image
+{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.back-to-up
+{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(9, 60, 137);
+    z-index: 999999999999999999999999999999999999999999999999999999;
+    bottom: 30px;
+    right: 30px;
+    border: none !important;
+    border-radius: 50%;
+    transition: background-color 0.5s;
+
+}
+.back-to-up:hover
+{
+    background-color: black !important;
+}
+@keyframes typing 
+{
+        0%{content: " D|";} 
+        3%{content: " De|";}
+        6%{content: " Dev|";}
+        9%{content: " Deve|";}
+        12%{content: " Devel|";}
+        15%{content: " Develo|";}
+        18%{content: " Develop|";}   
+        21%{content: " Develope|";}   
+        24%{content: " Developer|";}  
+        27%{content: " Developer|";} 
+        30%{content: " Developer|";} 
+        33%{content: " Develope|";}   
+        36%{content: " Develop|";}   
+        39%{content: " Develo|";}
+        42%{content: " Devel|";}
+        45%{content: " Deve|";}
+        48%{content: " Dev|";}
+        51%{content: " De|";}
+        54%{content: " D|";}
+        60%{content:  " D|";} 
+        63%{content:  " De|";}
+        66%{content: " Des|";}
+        69%{content: " Desi|";}
+        72%{content: " Desig|";}
+        74%{content: " Design|";}
+        77%{content: " Designe|";}   
+        80%{content: " Designer|";}   
+        82%{content: " Designer|";}  
+        85%{content: " Designe|";} 
+        88%{content: " Design|";} 
+        90%{content: " Desig|";}   
+        93%{content: " Desi|";}   
+        95%{content: " Des|";}
+        97%{content: " De|";}
+        100%{content: " D|";}
+}
