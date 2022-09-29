@@ -170,13 +170,13 @@ body
 header
 {
     background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;  
 }
 .bg-header
 {
-    height: 100%;
     background-color: rgba(0, 0, 0,0.6);
 }
 .home-txt h1::after
@@ -212,28 +212,32 @@ header
 }
 .achivments
 {
-    height: fit-content;
     background-image: url(../images/counters-bg.jpg);
+    background-repeat: no-repeat;
+
     background-position: center center;
     background-attachment: fixed;  
 }
 .contact
 {
-    height: fit-content;
+   
     background-image: url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+
     background-position: center center;
     background-attachment: fixed;  
 }
 .comments
 {
-    height: fit-content;
+   
     background-image: url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+
     background-position: center center;
     background-attachment: fixed;  
 }
 .bg-blue
 {
-    height: 100%;
     background-color: rgba(13, 110, 253,0.5);
 }
 
@@ -323,4 +327,12 @@ header
         95%{content: " Des|";}
         97%{content: " De|";}
         100%{content: " D|";}
+}
+
+
+@media (max-width: 768px){
+ .col-md-6 {
+    flex: 0 0 auto;
+    width: 100% !important;
+}
 }
